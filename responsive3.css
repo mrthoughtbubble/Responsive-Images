@@ -89,6 +89,7 @@ h3{
 	height: 320px;
 	background-repeat:no-repeat;
 	margin:5px 0px 10px 0px;
+	background-position:center;
 }
 
 #grid1 {
@@ -115,9 +116,9 @@ h3{
 }
 
 #grid7 {
-	background-image:url('images/sm/architecture7.jpg');
+	background-image:url('images/sm/architecture7.jpeg');
 }
 
 #grid8 {
-	background-image:url('images/sm/architecture8.jpg');
+	background-image:url('images/sm/architecture8.jpeg');
 }
