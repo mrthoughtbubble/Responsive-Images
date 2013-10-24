@@ -1,0 +1,39 @@
+/* This stylesheet creates a 4x1 format */
+
+p{
+	color:black;
+}
+
+#maingrid {
+	text-align: center;
+	width:100%;
+	height: 200px;
+}
+
+#grid1 {
+	float:left;
+	width: 100%;
+	height: 100%;
+	background-color: #006633;
+}
+
+#grid2 {
+	float:left;
+	width: 100% ;
+	height: 100%;
+	background-color: #003399;
+}
+
+#grid3 {
+	float:left;
+	width: 100% ;
+	height: 100%;
+	background-color: #990033;
+}
+
+#grid4 {
+	float:left;
+	width: 100% ;
+	height: 100%;
+	background-color: #ffff33;
+}
