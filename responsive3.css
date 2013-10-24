@@ -4,36 +4,145 @@ p{
 	color:black;
 }
 
-#maingrid {
+#viewport {
 	text-align: center;
 	width:100%;
-	height: 200px;
+	height: 800px;
 }
 
+h1 {
+padding:0px;
+margin:0px;
+
+}
+
+#message {
+width:80%;
+float:center;
+margin:0 auto;
+font-size:.8em;
+}
+
+#nav {
+background-color:black;
+color:white;
+padding:5px;
+text-transform:uppercase;
+font-size:.9em;
+}
+
+#nav a{
+color:white;
+text-decoration:none;
+
+}
+
+#nav a:hover
+{ 
+background-color:violet;
+color:yellow;
+font-weight:900;
+}
+
+#nav li{
+width:100%;
+padding:5px 0px 5px 0px;
+list-style:none;
+
+}
+
+ul li:nth-child(even){
+    background-color: #6a8bab;
+}
+
+ul li:nth-child(odd){
+    background-color: rgb(106, 170, 126);
+}
+
+#mobile {
+width:100%;
+visibility:visible;
+text-align:center;
+background-color:#000000;
+color:#ffffff;
+
+}
+
+#tablet {
+position:absolute;
+width:100%;
+visibility:hidden;
+text-align:center;
+background-color:#000000;
+color:#ffffff;
+}
+
+h3{
+	background-color: #ffffff;
+}
 #grid1 {
 	float:left;
-	width: 100%;
-	height: 100%;
-	background-color: #006633;
+	width: 320px;
+	height: 320px;
+	background-repeat:no-repeat;
+	background-image:url('images/sm/architecture1.jpg');
 }
 
 #grid2 {
 	float:left;
-	width: 100% ;
-	height: 100%;
-	background-color: #003399;
+	width: 320px;
+	height: 320px;
+	background-repeat:no-repeat;
+	background-image:url('images/sm/architecture2.jpg');
 }
 
 #grid3 {
 	float:left;
-	width: 100% ;
-	height: 100%;
-	background-color: #990033;
+	width: 320px;
+	height: 320px;
+	background-repeat:no-repeat;
+	background-image:url('images/sm/architecture3.jpg');
 }
 
 #grid4 {
 	float:left;
-	width: 100% ;
-	height: 100%;
-	background-color: #ffff33;
+	width: 320px;
+	height: 320px;
+	background-repeat:no-repeat;
+	background-image:url('images/sm/architecture4.jpg');		
+}
+#grid5 {
+	float:left;
+	width: 320px;
+	height: 320px;
+	background-repeat:no-repeat;
+	background-image:url('images/sm/architecture5.jpg');
+
+}
+
+#grid6 {
+	float:left;
+	width: 320px;
+	height: 320px;
+	background-repeat:no-repeat;
+	background-image:url('images/sm/architecture6.jpg');	
+}
+
+#grid7 {
+	float:left;
+	width: 320px;
+	height: 320px;
+	background-repeat:no-repeat;
+	background-image:url('images/sm/architecture7.jpg');
+
+}
+
+#grid8 {
+	float:left;
+	width: 320px;
+	height: 320px;
+	background-repeat:no-repeat;
+	background-image:url('images/sm/architecture8.jpg');
+
+
 }
