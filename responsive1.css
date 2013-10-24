@@ -71,76 +71,45 @@ background-color:#000000;
 
 h3{
 	background-color: #ffffff;
+	text-align:center;
+}
+
+.grid {
+	float:left;
+	width: 25% ;
+	height: 50%;
+	background-repeat:no-repeat;
+	margin:5px 0px 10px 0px;
 }
 
 #grid1 {
-	float:left;
-	width: 25%;
-	height: 50%;
 	background-image:url('images/architecture1.jpg');
-	background-color: #006633;
-	overflow:hidden;
 }
 
 #grid2 {
-	float:left;
-	width: 25% ;
-	height: 50%;
 	background-image:url('images/architecture2.jpg');
-	background-color: #003399;
-	overflow:auto;
 }
 
 #grid3 {
-	float:left;
-	width: 25% ;
-	height: 50%;
 	background-image:url('images/architecture3.jpg');
-	background-color: #990033;
-	overflow:scroll;
 }
 
 #grid4 {
-	float:left;
-	width: 25% ;
-	height: 50%;
 	background-image:url('images/architecture4.jpg');
-	background-color: #ffff33;
-	overflow:hidden;
 }
 
 #grid5 {
-	float:left;
-	width: 25%;
-	height: 50%;
 	background-image:url('images/architecture5.jpg');
-	background-color: #006633;
-	overflow:hidden;
 }
 
 #grid6 {
-	float:left;
-	width: 25% ;
-	height: 50%;
 	background-image:url('images/architecture6.jpg');
-	background-color: #003399;
-	overflow:hidden;
 }
 
 #grid7 {
-	float:left;
-	width: 25% ;
-	height: 50%;
 	background-image:url('images/architecture7.jpeg');
-	background-color: #990033;
-	overflow:hidden;
 }
 
 #grid8 {
-	float:left;
-	width: 25% ;
-	height: 50%;
 	background-image:url('images/architecture8.jpeg');	
-	background-color: #ffff33;
-	overflow:hidden;
 }

@@ -78,71 +78,46 @@ color:#ffffff;
 }
 
 h3{
-	background-color: #ffffff;
+	background-color: #fffff3;
+	text-align:center;
 }
-#grid1 {
+
+
+.grid {
 	float:left;
 	width: 320px;
 	height: 320px;
 	background-repeat:no-repeat;
+	margin:5px 0px 10px 0px;
+}
+
+#grid1 {
 	background-image:url('images/sm/architecture1.jpg');
 }
 
 #grid2 {
-	float:left;
-	width: 320px;
-	height: 320px;
-	background-repeat:no-repeat;
 	background-image:url('images/sm/architecture2.jpg');
 }
 
 #grid3 {
-	float:left;
-	width: 320px;
-	height: 320px;
-	background-repeat:no-repeat;
 	background-image:url('images/sm/architecture3.jpg');
 }
 
 #grid4 {
-	float:left;
-	width: 320px;
-	height: 320px;
-	background-repeat:no-repeat;
 	background-image:url('images/sm/architecture4.jpg');		
 }
 #grid5 {
-	float:left;
-	width: 320px;
-	height: 320px;
-	background-repeat:no-repeat;
 	background-image:url('images/sm/architecture5.jpg');
-
 }
 
 #grid6 {
-	float:left;
-	width: 320px;
-	height: 320px;
-	background-repeat:no-repeat;
 	background-image:url('images/sm/architecture6.jpg');	
 }
 
 #grid7 {
-	float:left;
-	width: 320px;
-	height: 320px;
-	background-repeat:no-repeat;
 	background-image:url('images/sm/architecture7.jpg');
-
 }
 
 #grid8 {
-	float:left;
-	width: 320px;
-	height: 320px;
-	background-repeat:no-repeat;
 	background-image:url('images/sm/architecture8.jpg');
-
-
 }

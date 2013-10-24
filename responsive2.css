@@ -16,6 +16,10 @@ padding:0px;
 margin:0px;
 
 }
+h3{
+	background-color: #ffffff;
+	text-align:center;
+}
 
 #message {
 width:500px;
@@ -69,74 +73,43 @@ background-color:#000000;
 color:#ffffff;
 }
 
-#grid1 {
+.grid {
 	float:left;
-	width: 50%;
+	width: 50% ;
 	height: 100%;
+	background-repeat:no-repeat;
+	margin:5px 0px 10px 0px;
+}
+
+
+#grid1 {
 	background-image:url('images/architecture1.jpg');
-	background-color: #006633;
-	overflow:hidden;
 }
 
 #grid2 {
-	float:left;
-	width: 50% ;
-	height: 100%;
 	background-image:url('images/architecture2.jpg');
-	background-color: #003399;
-	overflow:hidden;
 }
 
 #grid3 {
-	float:left;
-	width: 50% ;
-	height: 100%;
 	background-image:url('images/architecture3.jpg');
-	background-color: #990033;
-	overflow:hidden;
 }
 
 #grid4 {
-	float:left;
-	width: 50% ;
-	height: 100%;
 	background-image:url('images/architecture4.jpg');
-	background-color: #ffff33;
-	overflow:hidden;
 }
 
 #grid5 {
-	float:left;
-	width: 50%;
-	height: 100%;
 	background-image:url('images/architecture5.jpg');
-	background-color: #006633;
-	overflow:hidden;
 }
 
 #grid6 {
-	float:left;
-	width: 50% ;
-	height: 100%;
 	background-image:url('images/architecture6.jpg');
-	background-color: #003399;
-	overflow:hidden;
 }
 
 #grid7 {
-	float:left;
-	width: 50% ;
-	height: 100%;
 	background-image:url('images/architecture7.jpg');
-	background-color: #990033;
-	overflow:hidden;
 }
 
 #grid8 {
-	float:left;
-	width: 50% ;
-	height: 100%;
 	background-image:url('images/architecture8.jpg');
-	background-color: #ffff33;
-	overflow:hidden;
 }
