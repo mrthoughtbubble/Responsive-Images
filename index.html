@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+
+<html>
+	<head>
+		<title>Responsive Grids</title>
+	<link id="responsiveCSS" rel="stylesheet" type="text/css" href="responsive1.css" />
+
+<script type="text/javascript">
+	function resize()
+	{
+	//	document.getElementById('grid1text').innerHTML = "Hi Armando";
+		if(window.innerWidth > 1024)
+			document.getElementById("responsiveCSS").href = "responsive1.css";
+		else if (window.innerWidth > 480)
+			document.getElementById("responsiveCSS").href = "responsive2.css";
+		else
+			document.getElementById("responsiveCSS").href = "responsive3.css";
+	}
+
+</script>
+
+</head>
+	
+	
+<body onresize="resize()">
+
+	<div id="viewport">
+
+		<div id="grid1">
+<img src="architecture1.jpg" alt="architecture1">		
+		</div>
+
+		<div id="grid2">
+<img src="architecture2.jpg" alt="architecture2">		
+		</div>
+
+		<div id="grid3">
+<img src="architecture3.jpg" alt="architecture3">		
+		</div>
+		
+		<div id="grid4">
+<img src="architecture4.jpg" alt="architecture4">		
+		</div>
+		
+		<div id="grid5">
+<img src="architecture5.jpg" alt="architecture5">		
+		</div>
+
+		<div id="grid6">
+<img src="architecture6.jpg" alt="architecture6">		
+		</div>
+		
+		<div id="grid7">
+<img src="architecture7.jpg" alt="architecture7">		
+		</div>
+		
+		<div id="grid8">
+<img src="architecture8.jpg" alt="architecture8">		
+		</div>
+
+		
+	</div>
+
+</body>
+
+</html>
